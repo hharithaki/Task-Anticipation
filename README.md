@@ -25,7 +25,7 @@ The action selection of ad hoc agent enhances team collaboration and prevents co
 Moreover, the architecture scales efficiently to accommodate a larger number of agents, leading to improved performance.
 
 ## Providing Explanations of Decisions
-The use of knowledge-based reasoning and simple predictive models provide the ability for the ad hoc agent to generate relational descriptions in response to four types of questions: Causal, Contrastive, Justify beliefs and Counterfactual Questions. The performance of the architecture when creating these explanations can be found here together with execution examples: [Explanations](https://github.com/natsu-dragneel-ig/LLM_AHT/tree/main/Explanations)
+The use of knowledge-based reasoning and simple predictive models provide the ability for the ad hoc agent to generate relational descriptions in response to four types of questions: Causal, Contrastive, Justify beliefs and Counterfactual Questions. The performance of the architecture when creating these explanations can be found here together with execution examples: [Explanations](https://github.com/hharithaki/Task-Anticipation/tree/main/Explanations)
 
 ## Results on Scalability
 Following table shows the average number of steps and time taken by different teams, Team1 (human, ad hoc agent), Team2 (human, two ad hoc agents) and Team3 (human, three ad hoc agents) to complete 100 task routines when collaborating together. The architecture scale to different number of agents efficiently improving performance.
