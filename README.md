@@ -11,12 +11,15 @@ We use VirtualHome, a 3D simulation environment to evalute the architecture.
 
 ## Video 1
 Example videos of human and ad hoc agents collaborating together to perform household tasks:
-Video below shows three agents-(two ad hoc agents and one human) collaborating to complete a series of household tasks.
+
+Video showing three agents-(two ad hoc agents and one human) collaborating to complete a series of household tasks.
+
 [![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/RRnCDx6D4zc/0.jpg)](https://www.youtube.com/watch?v=RRnCDx6D4zc)
 
 ## Video 2
 
-Video below shows four agents-(three ad hoc agents and one human) collaborating to complete a series of household tasks.
+Video showing four agents-(three ad hoc agents and one human) collaborating to complete a series of household tasks.
+
 [![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/l-4D-LtNX8k/0.jpg)](https://www.youtube.com/watch?v=l-4D-LtNX8k)
 
 The action selection of ad hoc agent enhances team collaboration and prevents conflicts, enabling the agents to achieve their goal more efficiently and within less time.
