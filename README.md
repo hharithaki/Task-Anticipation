@@ -9,14 +9,13 @@ Our architecture enables an ad hoc agent to determine its actions through non-mo
 
 We use VirtualHome, a 3D simulation environment to evalute the architecture.
 
-## Video 1
+## Video
 Example videos of human and ad hoc agents collaborating together to perform household tasks:
 
 Video showing three agents-(two ad hoc agents and one human) collaborating to complete a series of household tasks.
 
 [![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/RRnCDx6D4zc/0.jpg)](https://www.youtube.com/watch?v=RRnCDx6D4zc)
 
-## Video 2
 
 Video showing four agents-(three ad hoc agents and one human) collaborating to complete a series of household tasks.
 
