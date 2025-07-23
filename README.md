@@ -9,13 +9,23 @@ Our architecture enables an ad hoc agent to determine its actions through non-mo
 
 We use VirtualHome, a 3D simulation environment to evalute the architecture.
 
-## Video
-Example videos of human and ad hoc agents collaborating together to perform household tasks: [Execution Video](https://github.com/natsu-dragneel-ig/LLM_AHT/tree/main/Execution%20Video)
+## Video 1
+Example videos of human and ad hoc agents collaborating together to perform household tasks:
+Video below shows three agents-(two ad hoc agents and one human) collaborating to complete a series of household tasks.
+[![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/RRnCDx6D4zc/0.jpg)](https://www.youtube.com/watch?v=RRnCDx6D4zc)
+
+## Video 2
+
+Video below shows four agents-(three ad hoc agents and one human) collaborating to complete a series of household tasks.
+[![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/l-4D-LtNX8k/0.jpg)](https://www.youtube.com/watch?v=l-4D-LtNX8k)
+
+The action selection of ad hoc agent enhances team collaboration and prevents conflicts, enabling the agents to achieve their goal more efficiently and within less time.
+Moreover, the architecture scales efficiently to accommodate a larger number of agents, leading to improved performance.
 
 ## Providing Explanations of Decisions
 The use of knowledge-based reasoning and simple predictive models provide the ability for the ad hoc agent to generate relational descriptions in response to four types of questions: Causal, Contrastive, Justify beliefs and Counterfactual Questions. The performance of the architecture when creating these explanations can be found here together with execution examples: [Explanations](https://github.com/natsu-dragneel-ig/LLM_AHT/tree/main/Explanations)
 
-## Additional Results on Scalability
+## Results on Scalability
 Following table shows the average number of steps and time taken by different teams, Team1 (human, ad hoc agent), Team2 (human, two ad hoc agents) and Team3 (human, three ad hoc agents) to complete 100 task routines when collaborating together. The architecture scale to different number of agents efficiently improving performance.
 
 |            Agent Team           |   Steps   | Time(s) |
@@ -30,13 +40,11 @@ Following table shows the average number of steps and time taken by different te
 .
 ├── ASP/ahagent.sp          # Answer Set Prolog implementation of the ad hoc agent after refinment.
 ├── ASP/ahagent_pre.sp      # Answer Set Prolog implementation of the ad hoc agent.
-├── ASP/huamn.sp            # Answer Set Prolog implementation of the human after refinment.
+├── ASP/human.sp            # Answer Set Prolog implementation of the human after refinment.
 ├── ASP/human_pre.sp        # Answer Set Prolog implementation of the human.
-├── Execution Video         # Example execution video from the VirtualHome domain where a human and ad hoc agents are collaborating to perform household tasks.
 ├── Explanations            # Code and results(with examples) for ad hoc agents providing explanations of its behaviour.
 ├── Models                  # Behaviour models learned by the ad hoc agent for other agents.
 ├── simulation              # Files from the VirtualHome domain with modification.
 ├── main.py                 # Main file
-├── state.csv               # Data used for creating the behaviour model.
 └── utils.py                # Utility file.
 ```
