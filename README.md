@@ -1,4 +1,4 @@
-# Generic-to-Specific Reasoning and Ad Hoc Teamwork in Embodied AI Agents
+# Thinking Together, Apart: Reasoning and Learning in Ad Hoc Teamwork
 
 Embodied AI agents deployed in assistive roles often have to collaborate with other agents (humans, AI systems) without prior coordination. Methods considered state of the art for such ad hoc teamwork often pursue a data-driven approach that needs a large labeled dataset of prior observations, lacks transparency, and makes it difficult to rapidly revise existing knowledge in response to changes. This repository contains the supplementary files for a hybrid architecture for ad hoc teamwork leveraging the complementary strengths of knowledge-based and data-driven methods for reasoning and learning for ad hoc teamwork. 
 
